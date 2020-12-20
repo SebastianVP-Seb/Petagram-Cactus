@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Boundstone</string>
+    <string name="Contactoname">Escribe tu nombre</string>
+    <string name="Contactomail">Escribe tu email</string>
+    <string name="Contactocomentario">Escribe tu comentario</string>
+    <string name="ContactoEnviar">ENVIAR DATOS</string>
+    <string name="nombre">Sebastián Vázquez Palacios</string>
+    <string name="instagram">iamseb_official</string>
+    <string name="city">Ciudad de México</string>
+    <string name="app">Cáctus</string>
+    <string name="menucon">Contacto</string>
+    <string name="menusobre">Sobre mí</string>
+    <string name="mami">Maricela Palacios</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

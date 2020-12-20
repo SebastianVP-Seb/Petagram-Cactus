@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.MaterialToolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="6dp"
+    android:id="@+id/appbar"
+    android:background="@color/white"
+    android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:layout_scrollFlags="scroll|enterAlways">
+
+    <ImageView
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:elevation="4dp"
+        android:gravity="left"
+        android:src="@drawable/cactus"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app"
+        android:layout_marginLeft="120sp"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textColor="@color/black"/>
+    <ImageButton
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:id="@+id/btnfav"
+        android:gravity="right"
+        android:layout_marginLeft="100sp"
+        android:onClick="irafav"
+        android:background="@drawable/favorito"
+        />
+
+
+</com.google.android.material.appbar.MaterialToolbar>
